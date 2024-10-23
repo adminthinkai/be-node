@@ -1,0 +1,21 @@
+2024-09-23T08:30:19.866Z
+Error: PostgreSQL connection error: Error: getaddrinfo ENOTFOUND Postgres_Think_AI
+    at getValidatedClient (/usr/local/lib/node_modules/@dbml/cli/node_modules/@dbml/connector/dist/connectors/postgresConnector.js:21:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async fetchSchemaJson (/usr/local/lib/node_modules/@dbml/cli/node_modules/@dbml/connector/dist/connectors/postgresConnector.js:397:20)
+    at async connectionHandler (/usr/local/lib/node_modules/@dbml/cli/lib/cli/connector.js:24:24)
+
+2024-09-23T08:32:57.322Z
+Error: PostgreSQL connection error: Error: getaddrinfo ENOTFOUND host.docker.internal
+    at getValidatedClient (/usr/local/lib/node_modules/@dbml/cli/node_modules/@dbml/connector/dist/connectors/postgresConnector.js:21:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async fetchSchemaJson (/usr/local/lib/node_modules/@dbml/cli/node_modules/@dbml/connector/dist/connectors/postgresConnector.js:397:20)
+    at async connectionHandler (/usr/local/lib/node_modules/@dbml/cli/lib/cli/connector.js:24:24)
+
+2024-09-23T08:33:38.166Z
+Error: PostgreSQL connection error: Error: getaddrinfo ENOTFOUND host.docker.internal
+    at getValidatedClient (/usr/local/lib/node_modules/@dbml/cli/node_modules/@dbml/connector/dist/connectors/postgresConnector.js:21:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async fetchSchemaJson (/usr/local/lib/node_modules/@dbml/cli/node_modules/@dbml/connector/dist/connectors/postgresConnector.js:397:20)
+    at async connectionHandler (/usr/local/lib/node_modules/@dbml/cli/lib/cli/connector.js:24:24)
+

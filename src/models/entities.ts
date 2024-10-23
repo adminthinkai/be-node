@@ -1,0 +1,12 @@
+export * from './user.model';
+export * from './userCredentials.model';
+export * from './verification.model';
+export * from './file.model';
+export * from './appBranding.model';
+export * from './class.model';
+// export * from "./сlassInputs.model";
+// export * from "./chat.model";
+export * from './messages.model';
+export * from './сlassHistory.model';
+export * from './notification.model';
+export * from './clone.model';

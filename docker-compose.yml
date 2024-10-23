@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  database:
+    image: postgres
+    # hostname: localhost
+    hostname: host.docker.internal
+    container_name: Postgres_Think_AI
+
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1111
+      POSTGRES_DATABASE: ThinkAI
+    ports:
+      - '5435:5432'
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    restart: always
+    ports:
+      - '8080:8080'
